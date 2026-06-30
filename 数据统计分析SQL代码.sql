@@ -5,7 +5,7 @@
 # 创建浏览深度表
 # PV:Page View，即页面浏览量或点击量，用户每次刷新即被计算一次。
 # UV:Unique Visitor，独立访客，访问网站的一台电脑客户端为一个访客。
-# CTR:浏览深度，PV/PU
+# CTR:浏览深度，PV/UV
 CREATE TABLE PUV(
     dates char(10),
     PV INT(10),
